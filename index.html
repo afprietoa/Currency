@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Conversor de Divisas</title>
+</head>
+
+<body>
+    <section class="form-section">
+        <img id="divisas" src="./images/artIcon.png" alt="Conversor" title="Divisas">
+        <form action="#" method="get">
+            <input class="type-money" type="text" id="currency" placeholder="Amount of money:" required>
+            <div class="row">
+                <select class="select" id="inputType" required>
+                    <option>Currency Select</option>
+                </select>
+                <select class="select" id="resultType" required>
+                    <option>Currency Select</option>
+                </select>
+                <input id="submit" type="button" value="Convert">
+            </div>
+    </section>
+
+
+    <div class="container-table">
+        <table id="table-card">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Country</th>
+                    <th>Money code<br>(ISO 4217)</th>
+                    <th>Currency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>United States</td>
+                    <td>USD</td>
+                    <td>Dollar</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Great Britain</td>
+                    <td>GPB</td>
+                    <td>Pound Sterling</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Europe</td>
+                    <td>EUR</td>
+                    <td>Euro</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mexico</td>
+                    <td>MXN</td>
+                    <td>Peso</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Colombia</td>
+                  <td>COP</td>
+                  <td>Peso</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+      
+
+
+    <script src="script/scripts.js"></script>
+</body>
+
+</html>
